@@ -127,11 +127,11 @@ public class QuanLyThuChiUI extends javax.swing.JPanel {
     }//GEN-LAST:event_btnDanhSachPhieuChiActionPerformed
 
     private void btnDanhSachPhieuThuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachPhieuThuActionPerformed
-        // TODO add your handling code here:
+        createNewJFrame(new DanhSachPhieuThuUI(), "Danh sách phiếu thu");
     }//GEN-LAST:event_btnDanhSachPhieuThuActionPerformed
 
     private void btnPhieuThuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPhieuThuActionPerformed
-        // TODO add your handling code here:
+        createNewJFrame(new DanhSachPhieuThuUI(), "Thêm phiếu thu");
     }//GEN-LAST:event_btnPhieuThuActionPerformed
 
 
