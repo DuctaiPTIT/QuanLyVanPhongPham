@@ -90,18 +90,18 @@
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnKhachHang1" min="-2" pref="150" max="-2" attributes="0"/>
-                          <Component id="btnSanPham1" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
-                          <Component id="btnNhanVien1" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
-                          <Component id="btnThuChi1" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
-                          <Component id="btnBanHang1" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
-                          <Component id="btnMuaHang1" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="btnQuanLyKhachHang" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="btnQuanLySanPham" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="btnQuanLyNhanVien" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="btnQuanLyThuChi" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="btbQuanLyBanHang" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="btnQuanLyMuaHang" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="btnBaoCao1" min="-2" pref="150" max="-2" attributes="0"/>
+                      <Component id="btnQuanLyBaoCao" min="-2" pref="150" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -110,26 +110,26 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnBanHang1" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="btbQuanLyBanHang" min="-2" pref="80" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btnMuaHang1" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="btnQuanLyMuaHang" min="-2" pref="80" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                      <Component id="btnSanPham1" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="btnQuanLySanPham" min="-2" pref="80" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                      <Component id="btnNhanVien1" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="btnQuanLyNhanVien" min="-2" pref="80" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btnKhachHang1" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="btnQuanLyKhachHang" min="-2" pref="80" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btnThuChi1" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="btnQuanLyThuChi" min="-2" pref="80" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="btnBaoCao1" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="btnQuanLyBaoCao" min="-2" pref="80" max="-2" attributes="0"/>
                       <EmptySpace pref="36" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="btnBanHang1">
+            <Component class="javax.swing.JButton" name="btbQuanLyBanHang">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="cc" green="99" red="0" type="rgb"/>
@@ -141,7 +141,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Nhap mon cong nghe phan mem\DoAnNhapMonCongNghePhanMem\images\sale.png"/>
+                  <Image iconType="3" name="/images/sale.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xfd; b&#xe1;n h&#xe0;ng"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -154,10 +154,10 @@
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBanHang1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btbQuanLyBanHangActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="btnMuaHang1">
+            <Component class="javax.swing.JButton" name="btnQuanLyMuaHang">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="99" green="0" red="99" type="rgb"/>
@@ -169,7 +169,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Nhap mon cong nghe phan mem\DoAnNhapMonCongNghePhanMem\images\buy.png"/>
+                  <Image iconType="3" name="/images/buy.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xfd; mua h&#xe0;ng"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -182,10 +182,10 @@
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMuaHang1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQuanLyMuaHangActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="btnSanPham1">
+            <Component class="javax.swing.JButton" name="btnQuanLySanPham">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="0" green="66" red="33" type="rgb"/>
@@ -197,7 +197,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Nhap mon cong nghe phan mem\DoAnNhapMonCongNghePhanMem\images\base.png"/>
+                  <Image iconType="3" name="/images/base.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xfd; s&#x1ea3;n ph&#x1ea9;m"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -210,10 +210,10 @@
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSanPham1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQuanLySanPhamActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="btnNhanVien1">
+            <Component class="javax.swing.JButton" name="btnQuanLyNhanVien">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="99" red="0" type="rgb"/>
@@ -225,7 +225,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Nhap mon cong nghe phan mem\DoAnNhapMonCongNghePhanMem\images\staff.png"/>
+                  <Image iconType="3" name="/images/staff.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xfd; nh&#xe2;n vi&#xea;n"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -238,10 +238,10 @@
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNhanVien1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQuanLyNhanVienActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="btnBaoCao1">
+            <Component class="javax.swing.JButton" name="btnQuanLyBaoCao">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="33" green="66" red="0" type="rgb"/>
@@ -253,7 +253,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Nhap mon cong nghe phan mem\DoAnNhapMonCongNghePhanMem\images\report2.png"/>
+                  <Image iconType="3" name="/images/report2.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xfd; b&#xe1;o c&#xe1;o"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -266,10 +266,10 @@
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBaoCao1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQuanLyBaoCaoActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="btnKhachHang1">
+            <Component class="javax.swing.JButton" name="btnQuanLyKhachHang">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="33" green="0" red="99" type="rgb"/>
@@ -281,7 +281,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Nhap mon cong nghe phan mem\DoAnNhapMonCongNghePhanMem\images\custemer.png"/>
+                  <Image iconType="3" name="/images/custemer.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Kh&#xe1;ch h&#xe0;ng"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -294,10 +294,10 @@
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnKhachHang1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQuanLyKhachHangActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="btnThuChi1">
+            <Component class="javax.swing.JButton" name="btnQuanLyThuChi">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="0" green="66" red="ff" type="rgb"/>
@@ -309,7 +309,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Nhap mon cong nghe phan mem\DoAnNhapMonCongNghePhanMem\images\casher.png"/>
+                  <Image iconType="3" name="/images/casher.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xfd; thu chi"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -322,7 +322,7 @@
                 <Property name="verticalTextPosition" type="int" value="3"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnThuChi1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQuanLyThuChiActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>

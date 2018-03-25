@@ -28,17 +28,17 @@ public class DanhSachNhanVienUI extends javax.swing.JPanel {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        tbDanhSachNhanVien = new javax.swing.JTable();
+        btnThem = new javax.swing.JButton();
+        btnSua = new javax.swing.JButton();
+        btnXoa = new javax.swing.JButton();
+        btnDong = new javax.swing.JButton();
+        lbSearch = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextPane1 = new javax.swing.JTextPane();
+        txtSearch = new javax.swing.JTextPane();
         jLabel2 = new javax.swing.JLabel();
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        tbDanhSachNhanVien.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null},
                 {null, null, null, null, null, null},
@@ -49,26 +49,30 @@ public class DanhSachNhanVienUI extends javax.swing.JPanel {
                 "STT", "Mã Nhân Viên", "Tên Nhân viên", "Bộ Phận", "Điên thoại", "Email"
             }
         ));
-        jScrollPane1.setViewportView(jTable1);
-        if (jTable1.getColumnModel().getColumnCount() > 0) {
-            jTable1.getColumnModel().getColumn(5).setResizable(false);
+        jScrollPane1.setViewportView(tbDanhSachNhanVien);
+        if (tbDanhSachNhanVien.getColumnModel().getColumnCount() > 0) {
+            tbDanhSachNhanVien.getColumnModel().getColumn(5).setResizable(false);
         }
 
-        jButton1.setIcon(new javax.swing.ImageIcon("D:\\Nhap mon cong nghe phan mem\\DoAnNhapMonCongNghePhanMem\\images\\add.png")); // NOI18N
-        jButton1.setText("Thêm");
+        btnThem.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btnThem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/add.png"))); // NOI18N
+        btnThem.setText("Thêm");
 
-        jButton2.setIcon(new javax.swing.ImageIcon("D:\\Nhap mon cong nghe phan mem\\DoAnNhapMonCongNghePhanMem\\images\\edit.png")); // NOI18N
-        jButton2.setText("Sửa");
+        btnSua.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btnSua.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/edit.png"))); // NOI18N
+        btnSua.setText("Sửa");
 
-        jButton3.setIcon(new javax.swing.ImageIcon("D:\\Nhap mon cong nghe phan mem\\DoAnNhapMonCongNghePhanMem\\images\\delete.png")); // NOI18N
-        jButton3.setText("Xóa");
+        btnXoa.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btnXoa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/delete.png"))); // NOI18N
+        btnXoa.setText("Xóa");
 
-        jButton4.setText("Đóng");
+        btnDong.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btnDong.setText("Đóng");
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\Nhap mon cong nghe phan mem\\DoAnNhapMonCongNghePhanMem\\images\\Search.png")); // NOI18N
-        jLabel1.setText("Nhập");
+        lbSearch.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Search.png"))); // NOI18N
+        lbSearch.setText("Nhập");
 
-        jScrollPane2.setViewportView(jTextPane1);
+        jScrollPane2.setViewportView(txtSearch);
 
         jLabel2.setForeground(new java.awt.Color(255, 51, 0));
         jLabel2.setText("Nhấn Enter để xem chi tiết thông tin nhân viên!");
@@ -85,18 +89,18 @@ public class DanhSachNhanVienUI extends javax.swing.JPanel {
                         .addComponent(jLabel2))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(61, 61, 61)
-                        .addComponent(jLabel1)
+                        .addComponent(lbSearch)
                         .addGap(32, 32, 32)
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(54, 54, 54)
-                        .addComponent(jButton1)
+                        .addComponent(btnThem)
                         .addGap(32, 32, 32)
-                        .addComponent(jButton2)
+                        .addComponent(btnSua)
                         .addGap(26, 26, 26)
-                        .addComponent(jButton3)
+                        .addComponent(btnXoa)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton4)))
-                .addContainerGap(11, Short.MAX_VALUE))
+                        .addComponent(btnDong)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -104,17 +108,17 @@ public class DanhSachNhanVienUI extends javax.swing.JPanel {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jButton1)
-                        .addComponent(jButton2)
-                        .addComponent(jButton3)
-                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btnThem)
+                        .addComponent(btnSua)
+                        .addComponent(btnXoa)
+                        .addComponent(btnDong, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 153, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addComponent(jLabel2)
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lbSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(51, 51, 51))
         );
@@ -122,15 +126,15 @@ public class DanhSachNhanVienUI extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton btnDong;
+    private javax.swing.JButton btnSua;
+    private javax.swing.JButton btnThem;
+    private javax.swing.JButton btnXoa;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JLabel lbSearch;
+    private javax.swing.JTable tbDanhSachNhanVien;
+    private javax.swing.JTextPane txtSearch;
     // End of variables declaration//GEN-END:variables
 }

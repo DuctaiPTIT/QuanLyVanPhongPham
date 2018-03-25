@@ -55,19 +55,19 @@ public class QuanLyBanHangUI extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnBanHang = new javax.swing.JButton();
+        btnLapHoaDonBanHang = new javax.swing.JButton();
         btnDanhSachHoaDon = new javax.swing.JButton();
 
-        btnBanHang.setBackground(new java.awt.Color(0, 204, 255));
-        btnBanHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnBanHang.setForeground(new java.awt.Color(255, 255, 255));
-        btnBanHang.setText("Lập hóa đơn bán hàng");
-        btnBanHang.setToolTipText("");
-        btnBanHang.setBorderPainted(false);
-        btnBanHang.setFocusPainted(false);
-        btnBanHang.addActionListener(new java.awt.event.ActionListener() {
+        btnLapHoaDonBanHang.setBackground(new java.awt.Color(0, 204, 255));
+        btnLapHoaDonBanHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnLapHoaDonBanHang.setForeground(new java.awt.Color(255, 255, 255));
+        btnLapHoaDonBanHang.setText("Lập hóa đơn bán hàng");
+        btnLapHoaDonBanHang.setToolTipText("");
+        btnLapHoaDonBanHang.setBorderPainted(false);
+        btnLapHoaDonBanHang.setFocusPainted(false);
+        btnLapHoaDonBanHang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBanHangActionPerformed(evt);
+                btnLapHoaDonBanHangActionPerformed(evt);
             }
         });
 
@@ -91,7 +91,7 @@ public class QuanLyBanHangUI extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnBanHang, javax.swing.GroupLayout.PREFERRED_SIZE, 287, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnLapHoaDonBanHang, javax.swing.GroupLayout.PREFERRED_SIZE, 287, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnDanhSachHoaDon, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(48, Short.MAX_VALUE))
         );
@@ -99,17 +99,17 @@ public class QuanLyBanHangUI extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(btnBanHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnLapHoaDonBanHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnDanhSachHoaDon, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(155, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnBanHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBanHangActionPerformed
+    private void btnLapHoaDonBanHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLapHoaDonBanHangActionPerformed
         // TODO add your handling code here:
         khoiTaoJFramBanHang();
-    }//GEN-LAST:event_btnBanHangActionPerformed
+    }//GEN-LAST:event_btnLapHoaDonBanHangActionPerformed
 
     private void btnDanhSachHoaDonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachHoaDonActionPerformed
         // TODO add your handling code here:
@@ -134,7 +134,7 @@ public class QuanLyBanHangUI extends javax.swing.JPanel {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBanHang;
     private javax.swing.JButton btnDanhSachHoaDon;
+    private javax.swing.JButton btnLapHoaDonBanHang;
     // End of variables declaration//GEN-END:variables
 }

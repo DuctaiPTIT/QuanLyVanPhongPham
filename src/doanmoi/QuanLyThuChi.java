@@ -31,7 +31,7 @@ public class QuanLyThuChi extends javax.swing.JPanel {
     private void initComponents() {
 
         btnDanhSachPhieuChi = new javax.swing.JButton();
-        btnDanhMucPhi = new javax.swing.JButton();
+        btnThemDanhMucPhi = new javax.swing.JButton();
         btnThemPhieuChi = new javax.swing.JButton();
         btnPhieuThu = new javax.swing.JButton();
         btnDanhSachPhieuThu = new javax.swing.JButton();
@@ -48,15 +48,15 @@ public class QuanLyThuChi extends javax.swing.JPanel {
             }
         });
 
-        btnDanhMucPhi.setBackground(new java.awt.Color(0, 204, 255));
-        btnDanhMucPhi.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnDanhMucPhi.setForeground(new java.awt.Color(255, 255, 255));
-        btnDanhMucPhi.setText("Thêm danh mục phí");
-        btnDanhMucPhi.setBorderPainted(false);
-        btnDanhMucPhi.setFocusPainted(false);
-        btnDanhMucPhi.addActionListener(new java.awt.event.ActionListener() {
+        btnThemDanhMucPhi.setBackground(new java.awt.Color(0, 204, 255));
+        btnThemDanhMucPhi.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnThemDanhMucPhi.setForeground(new java.awt.Color(255, 255, 255));
+        btnThemDanhMucPhi.setText("Thêm danh mục phí");
+        btnThemDanhMucPhi.setBorderPainted(false);
+        btnThemDanhMucPhi.setFocusPainted(false);
+        btnThemDanhMucPhi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnDanhMucPhiActionPerformed(evt);
+                btnThemDanhMucPhiActionPerformed(evt);
             }
         });
 
@@ -104,7 +104,7 @@ public class QuanLyThuChi extends javax.swing.JPanel {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(btnDanhSachPhieuChi, javax.swing.GroupLayout.DEFAULT_SIZE, 215, Short.MAX_VALUE)
-                    .addComponent(btnDanhMucPhi, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnThemDanhMucPhi, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnThemPhieuChi, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(10, 10, 10)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -117,7 +117,7 @@ public class QuanLyThuChi extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnDanhMucPhi, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnThemDanhMucPhi, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnPhieuThu, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -129,10 +129,10 @@ public class QuanLyThuChi extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnDanhMucPhiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhMucPhiActionPerformed
+    private void btnThemDanhMucPhiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThemDanhMucPhiActionPerformed
         // TODO add your handling code here:
         
-    }//GEN-LAST:event_btnDanhMucPhiActionPerformed
+    }//GEN-LAST:event_btnThemDanhMucPhiActionPerformed
 
     private void btnThemPhieuChiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThemPhieuChiActionPerformed
         // TODO add your handling code here:
@@ -152,10 +152,10 @@ public class QuanLyThuChi extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnDanhMucPhi;
     private javax.swing.JButton btnDanhSachPhieuChi;
     private javax.swing.JButton btnDanhSachPhieuThu;
     private javax.swing.JButton btnPhieuThu;
+    private javax.swing.JButton btnThemDanhMucPhi;
     private javax.swing.JButton btnThemPhieuChi;
     // End of variables declaration//GEN-END:variables
 }

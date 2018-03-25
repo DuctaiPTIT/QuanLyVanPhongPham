@@ -34,60 +34,60 @@ public class QuanLyMuaHang extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnDanhSachNhapHang = new javax.swing.JButton();
-        btnNhapHang = new javax.swing.JButton();
-        btnDanhSachDatHang = new javax.swing.JButton();
-        btnDatHang = new javax.swing.JButton();
+        btnDanhSachDonNhapHang = new javax.swing.JButton();
+        btnNhapDonNhapHang = new javax.swing.JButton();
+        btnDanhSachDonDatHang = new javax.swing.JButton();
+        btnLapDonDatHang = new javax.swing.JButton();
 
-        btnDanhSachNhapHang.setBackground(new java.awt.Color(0, 204, 255));
-        btnDanhSachNhapHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnDanhSachNhapHang.setForeground(new java.awt.Color(255, 255, 255));
-        btnDanhSachNhapHang.setText("Dánh Sách đơn nhập hàng");
-        btnDanhSachNhapHang.setToolTipText("");
-        btnDanhSachNhapHang.setBorderPainted(false);
-        btnDanhSachNhapHang.setFocusPainted(false);
-        btnDanhSachNhapHang.addActionListener(new java.awt.event.ActionListener() {
+        btnDanhSachDonNhapHang.setBackground(new java.awt.Color(0, 204, 255));
+        btnDanhSachDonNhapHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnDanhSachDonNhapHang.setForeground(new java.awt.Color(255, 255, 255));
+        btnDanhSachDonNhapHang.setText("Dánh Sách đơn nhập hàng");
+        btnDanhSachDonNhapHang.setToolTipText("");
+        btnDanhSachDonNhapHang.setBorderPainted(false);
+        btnDanhSachDonNhapHang.setFocusPainted(false);
+        btnDanhSachDonNhapHang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnDanhSachNhapHangActionPerformed(evt);
+                btnDanhSachDonNhapHangActionPerformed(evt);
             }
         });
 
-        btnNhapHang.setBackground(new java.awt.Color(0, 204, 255));
-        btnNhapHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnNhapHang.setForeground(new java.awt.Color(255, 255, 255));
-        btnNhapHang.setText("Nhập đơn nhập hàng");
-        btnNhapHang.setToolTipText("");
-        btnNhapHang.setBorderPainted(false);
-        btnNhapHang.setFocusPainted(false);
-        btnNhapHang.addActionListener(new java.awt.event.ActionListener() {
+        btnNhapDonNhapHang.setBackground(new java.awt.Color(0, 204, 255));
+        btnNhapDonNhapHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnNhapDonNhapHang.setForeground(new java.awt.Color(255, 255, 255));
+        btnNhapDonNhapHang.setText("Nhập đơn nhập hàng");
+        btnNhapDonNhapHang.setToolTipText("");
+        btnNhapDonNhapHang.setBorderPainted(false);
+        btnNhapDonNhapHang.setFocusPainted(false);
+        btnNhapDonNhapHang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnNhapHangActionPerformed(evt);
+                btnNhapDonNhapHangActionPerformed(evt);
             }
         });
 
-        btnDanhSachDatHang.setBackground(new java.awt.Color(0, 204, 255));
-        btnDanhSachDatHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnDanhSachDatHang.setForeground(new java.awt.Color(255, 255, 255));
-        btnDanhSachDatHang.setText("Dánh Sách đơn đặt hàng");
-        btnDanhSachDatHang.setToolTipText("");
-        btnDanhSachDatHang.setBorderPainted(false);
-        btnDanhSachDatHang.setFocusPainted(false);
-        btnDanhSachDatHang.addActionListener(new java.awt.event.ActionListener() {
+        btnDanhSachDonDatHang.setBackground(new java.awt.Color(0, 204, 255));
+        btnDanhSachDonDatHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnDanhSachDonDatHang.setForeground(new java.awt.Color(255, 255, 255));
+        btnDanhSachDonDatHang.setText("Dánh Sách đơn đặt hàng");
+        btnDanhSachDonDatHang.setToolTipText("");
+        btnDanhSachDonDatHang.setBorderPainted(false);
+        btnDanhSachDonDatHang.setFocusPainted(false);
+        btnDanhSachDonDatHang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnDanhSachDatHangActionPerformed(evt);
+                btnDanhSachDonDatHangActionPerformed(evt);
             }
         });
 
-        btnDatHang.setBackground(new java.awt.Color(0, 204, 255));
-        btnDatHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnDatHang.setForeground(new java.awt.Color(255, 255, 255));
-        btnDatHang.setText("Lập đơn đặt hàng");
-        btnDatHang.setToolTipText("");
-        btnDatHang.setBorderPainted(false);
-        btnDatHang.setFocusPainted(false);
-        btnDatHang.addActionListener(new java.awt.event.ActionListener() {
+        btnLapDonDatHang.setBackground(new java.awt.Color(0, 204, 255));
+        btnLapDonDatHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnLapDonDatHang.setForeground(new java.awt.Color(255, 255, 255));
+        btnLapDonDatHang.setText("Lập đơn đặt hàng");
+        btnLapDonDatHang.setToolTipText("");
+        btnLapDonDatHang.setBorderPainted(false);
+        btnLapDonDatHang.setFocusPainted(false);
+        btnLapDonDatHang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnDatHangActionPerformed(evt);
+                btnLapDonDatHangActionPerformed(evt);
             }
         });
 
@@ -98,12 +98,12 @@ public class QuanLyMuaHang extends javax.swing.JPanel {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(btnDatHang, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
-                    .addComponent(btnDanhSachDatHang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(btnLapDonDatHang, javax.swing.GroupLayout.DEFAULT_SIZE, 238, Short.MAX_VALUE)
+                    .addComponent(btnDanhSachDonDatHang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(btnDanhSachNhapHang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnNhapHang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(btnDanhSachDonNhapHang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnNhapDonNhapHang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(203, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -111,17 +111,17 @@ public class QuanLyMuaHang extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnDatHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnNhapHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnLapDonDatHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnNhapDonNhapHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnDanhSachDatHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnDanhSachNhapHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnDanhSachDonDatHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnDanhSachDonNhapHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(347, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnDanhSachNhapHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachNhapHangActionPerformed
+    private void btnDanhSachDonNhapHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachDonNhapHangActionPerformed
         // TODO add your handling code here:
         JFrame jfrBanHang = new JFrame("Lập phiếu đặt hàng");
         jfrBanHang.getContentPane();
@@ -130,25 +130,25 @@ public class QuanLyMuaHang extends javax.swing.JPanel {
         jfrBanHang.setLocationRelativeTo(null);
         jfrBanHang.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         jfrBanHang.setVisible(true);
-    }//GEN-LAST:event_btnDanhSachNhapHangActionPerformed
+    }//GEN-LAST:event_btnDanhSachDonNhapHangActionPerformed
 
-    private void btnNhapHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNhapHangActionPerformed
+    private void btnNhapDonNhapHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNhapDonNhapHangActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnNhapHangActionPerformed
+    }//GEN-LAST:event_btnNhapDonNhapHangActionPerformed
 
-    private void btnDanhSachDatHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachDatHangActionPerformed
+    private void btnDanhSachDonDatHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachDonDatHangActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnDanhSachDatHangActionPerformed
+    }//GEN-LAST:event_btnDanhSachDonDatHangActionPerformed
 
-    private void btnDatHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDatHangActionPerformed
+    private void btnLapDonDatHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLapDonDatHangActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnDatHangActionPerformed
+    }//GEN-LAST:event_btnLapDonDatHangActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnDanhSachDatHang;
-    private javax.swing.JButton btnDanhSachNhapHang;
-    private javax.swing.JButton btnDatHang;
-    private javax.swing.JButton btnNhapHang;
+    private javax.swing.JButton btnDanhSachDonDatHang;
+    private javax.swing.JButton btnDanhSachDonNhapHang;
+    private javax.swing.JButton btnLapDonDatHang;
+    private javax.swing.JButton btnNhapDonNhapHang;
     // End of variables declaration//GEN-END:variables
 }

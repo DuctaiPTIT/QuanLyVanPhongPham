@@ -69,135 +69,135 @@ public class ChucNangChinhUI extends javax.swing.JPanel {
 
         jPanel1 = new javax.swing.JPanel();
         pnLeft = new javax.swing.JPanel();
-        btnBanHang1 = new javax.swing.JButton();
-        btnMuaHang1 = new javax.swing.JButton();
-        btnSanPham1 = new javax.swing.JButton();
-        btnNhanVien1 = new javax.swing.JButton();
-        btnBaoCao1 = new javax.swing.JButton();
-        btnKhachHang1 = new javax.swing.JButton();
-        btnThuChi1 = new javax.swing.JButton();
+        btbQuanLyBanHang = new javax.swing.JButton();
+        btnQuanLyMuaHang = new javax.swing.JButton();
+        btnQuanLySanPham = new javax.swing.JButton();
+        btnQuanLyNhanVien = new javax.swing.JButton();
+        btnQuanLyBaoCao = new javax.swing.JButton();
+        btnQuanLyKhachHang = new javax.swing.JButton();
+        btnQuanLyThuChi = new javax.swing.JButton();
         pnRight = new javax.swing.JPanel();
 
         setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         pnLeft.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        btnBanHang1.setBackground(new java.awt.Color(0, 153, 204));
-        btnBanHang1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnBanHang1.setForeground(new java.awt.Color(255, 255, 255));
-        btnBanHang1.setIcon(new javax.swing.ImageIcon("D:\\Nhap mon cong nghe phan mem\\DoAnNhapMonCongNghePhanMem\\images\\sale.png")); // NOI18N
-        btnBanHang1.setText("Quản lý bán hàng");
-        btnBanHang1.setBorder(null);
-        btnBanHang1.setBorderPainted(false);
-        btnBanHang1.setFocusPainted(false);
-        btnBanHang1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        btnBanHang1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnBanHang1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btnBanHang1.addActionListener(new java.awt.event.ActionListener() {
+        btbQuanLyBanHang.setBackground(new java.awt.Color(0, 153, 204));
+        btbQuanLyBanHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btbQuanLyBanHang.setForeground(new java.awt.Color(255, 255, 255));
+        btbQuanLyBanHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/sale.png"))); // NOI18N
+        btbQuanLyBanHang.setText("Quản lý bán hàng");
+        btbQuanLyBanHang.setBorder(null);
+        btbQuanLyBanHang.setBorderPainted(false);
+        btbQuanLyBanHang.setFocusPainted(false);
+        btbQuanLyBanHang.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        btbQuanLyBanHang.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btbQuanLyBanHang.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btbQuanLyBanHang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBanHang1ActionPerformed(evt);
+                btbQuanLyBanHangActionPerformed(evt);
             }
         });
 
-        btnMuaHang1.setBackground(new java.awt.Color(153, 0, 153));
-        btnMuaHang1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnMuaHang1.setForeground(new java.awt.Color(255, 255, 255));
-        btnMuaHang1.setIcon(new javax.swing.ImageIcon("D:\\Nhap mon cong nghe phan mem\\DoAnNhapMonCongNghePhanMem\\images\\buy.png")); // NOI18N
-        btnMuaHang1.setText("Quản lý mua hàng");
-        btnMuaHang1.setBorder(null);
-        btnMuaHang1.setBorderPainted(false);
-        btnMuaHang1.setFocusPainted(false);
-        btnMuaHang1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        btnMuaHang1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnMuaHang1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btnMuaHang1.addActionListener(new java.awt.event.ActionListener() {
+        btnQuanLyMuaHang.setBackground(new java.awt.Color(153, 0, 153));
+        btnQuanLyMuaHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnQuanLyMuaHang.setForeground(new java.awt.Color(255, 255, 255));
+        btnQuanLyMuaHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buy.png"))); // NOI18N
+        btnQuanLyMuaHang.setText("Quản lý mua hàng");
+        btnQuanLyMuaHang.setBorder(null);
+        btnQuanLyMuaHang.setBorderPainted(false);
+        btnQuanLyMuaHang.setFocusPainted(false);
+        btnQuanLyMuaHang.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        btnQuanLyMuaHang.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnQuanLyMuaHang.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnQuanLyMuaHang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnMuaHang1ActionPerformed(evt);
+                btnQuanLyMuaHangActionPerformed(evt);
             }
         });
 
-        btnSanPham1.setBackground(new java.awt.Color(51, 102, 0));
-        btnSanPham1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnSanPham1.setForeground(new java.awt.Color(255, 255, 255));
-        btnSanPham1.setIcon(new javax.swing.ImageIcon("D:\\Nhap mon cong nghe phan mem\\DoAnNhapMonCongNghePhanMem\\images\\base.png")); // NOI18N
-        btnSanPham1.setText("Quản lý sản phẩm");
-        btnSanPham1.setBorder(null);
-        btnSanPham1.setBorderPainted(false);
-        btnSanPham1.setFocusPainted(false);
-        btnSanPham1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        btnSanPham1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnSanPham1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btnSanPham1.addActionListener(new java.awt.event.ActionListener() {
+        btnQuanLySanPham.setBackground(new java.awt.Color(51, 102, 0));
+        btnQuanLySanPham.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnQuanLySanPham.setForeground(new java.awt.Color(255, 255, 255));
+        btnQuanLySanPham.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/base.png"))); // NOI18N
+        btnQuanLySanPham.setText("Quản lý sản phẩm");
+        btnQuanLySanPham.setBorder(null);
+        btnQuanLySanPham.setBorderPainted(false);
+        btnQuanLySanPham.setFocusPainted(false);
+        btnQuanLySanPham.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        btnQuanLySanPham.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnQuanLySanPham.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnQuanLySanPham.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSanPham1ActionPerformed(evt);
+                btnQuanLySanPhamActionPerformed(evt);
             }
         });
 
-        btnNhanVien1.setBackground(new java.awt.Color(0, 153, 255));
-        btnNhanVien1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnNhanVien1.setForeground(new java.awt.Color(255, 255, 255));
-        btnNhanVien1.setIcon(new javax.swing.ImageIcon("D:\\Nhap mon cong nghe phan mem\\DoAnNhapMonCongNghePhanMem\\images\\staff.png")); // NOI18N
-        btnNhanVien1.setText("Quản lý nhân viên");
-        btnNhanVien1.setBorder(null);
-        btnNhanVien1.setBorderPainted(false);
-        btnNhanVien1.setFocusPainted(false);
-        btnNhanVien1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        btnNhanVien1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnNhanVien1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btnNhanVien1.addActionListener(new java.awt.event.ActionListener() {
+        btnQuanLyNhanVien.setBackground(new java.awt.Color(0, 153, 255));
+        btnQuanLyNhanVien.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnQuanLyNhanVien.setForeground(new java.awt.Color(255, 255, 255));
+        btnQuanLyNhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/staff.png"))); // NOI18N
+        btnQuanLyNhanVien.setText("Quản lý nhân viên");
+        btnQuanLyNhanVien.setBorder(null);
+        btnQuanLyNhanVien.setBorderPainted(false);
+        btnQuanLyNhanVien.setFocusPainted(false);
+        btnQuanLyNhanVien.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        btnQuanLyNhanVien.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnQuanLyNhanVien.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnQuanLyNhanVien.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnNhanVien1ActionPerformed(evt);
+                btnQuanLyNhanVienActionPerformed(evt);
             }
         });
 
-        btnBaoCao1.setBackground(new java.awt.Color(0, 102, 51));
-        btnBaoCao1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnBaoCao1.setForeground(new java.awt.Color(255, 255, 255));
-        btnBaoCao1.setIcon(new javax.swing.ImageIcon("D:\\Nhap mon cong nghe phan mem\\DoAnNhapMonCongNghePhanMem\\images\\report2.png")); // NOI18N
-        btnBaoCao1.setText("Quản lý báo cáo");
-        btnBaoCao1.setBorder(null);
-        btnBaoCao1.setBorderPainted(false);
-        btnBaoCao1.setFocusPainted(false);
-        btnBaoCao1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        btnBaoCao1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnBaoCao1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btnBaoCao1.addActionListener(new java.awt.event.ActionListener() {
+        btnQuanLyBaoCao.setBackground(new java.awt.Color(0, 102, 51));
+        btnQuanLyBaoCao.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnQuanLyBaoCao.setForeground(new java.awt.Color(255, 255, 255));
+        btnQuanLyBaoCao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/report2.png"))); // NOI18N
+        btnQuanLyBaoCao.setText("Quản lý báo cáo");
+        btnQuanLyBaoCao.setBorder(null);
+        btnQuanLyBaoCao.setBorderPainted(false);
+        btnQuanLyBaoCao.setFocusPainted(false);
+        btnQuanLyBaoCao.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        btnQuanLyBaoCao.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnQuanLyBaoCao.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnQuanLyBaoCao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBaoCao1ActionPerformed(evt);
+                btnQuanLyBaoCaoActionPerformed(evt);
             }
         });
 
-        btnKhachHang1.setBackground(new java.awt.Color(153, 0, 51));
-        btnKhachHang1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnKhachHang1.setForeground(new java.awt.Color(255, 255, 255));
-        btnKhachHang1.setIcon(new javax.swing.ImageIcon("D:\\Nhap mon cong nghe phan mem\\DoAnNhapMonCongNghePhanMem\\images\\custemer.png")); // NOI18N
-        btnKhachHang1.setText("Khách hàng");
-        btnKhachHang1.setBorder(null);
-        btnKhachHang1.setBorderPainted(false);
-        btnKhachHang1.setFocusPainted(false);
-        btnKhachHang1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        btnKhachHang1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnKhachHang1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btnKhachHang1.addActionListener(new java.awt.event.ActionListener() {
+        btnQuanLyKhachHang.setBackground(new java.awt.Color(153, 0, 51));
+        btnQuanLyKhachHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnQuanLyKhachHang.setForeground(new java.awt.Color(255, 255, 255));
+        btnQuanLyKhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/custemer.png"))); // NOI18N
+        btnQuanLyKhachHang.setText("Khách hàng");
+        btnQuanLyKhachHang.setBorder(null);
+        btnQuanLyKhachHang.setBorderPainted(false);
+        btnQuanLyKhachHang.setFocusPainted(false);
+        btnQuanLyKhachHang.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        btnQuanLyKhachHang.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnQuanLyKhachHang.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnQuanLyKhachHang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnKhachHang1ActionPerformed(evt);
+                btnQuanLyKhachHangActionPerformed(evt);
             }
         });
 
-        btnThuChi1.setBackground(new java.awt.Color(255, 102, 0));
-        btnThuChi1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnThuChi1.setForeground(new java.awt.Color(255, 255, 255));
-        btnThuChi1.setIcon(new javax.swing.ImageIcon("D:\\Nhap mon cong nghe phan mem\\DoAnNhapMonCongNghePhanMem\\images\\casher.png")); // NOI18N
-        btnThuChi1.setText("Quản lý thu chi");
-        btnThuChi1.setBorder(null);
-        btnThuChi1.setBorderPainted(false);
-        btnThuChi1.setFocusPainted(false);
-        btnThuChi1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        btnThuChi1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnThuChi1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btnThuChi1.addActionListener(new java.awt.event.ActionListener() {
+        btnQuanLyThuChi.setBackground(new java.awt.Color(255, 102, 0));
+        btnQuanLyThuChi.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnQuanLyThuChi.setForeground(new java.awt.Color(255, 255, 255));
+        btnQuanLyThuChi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/casher.png"))); // NOI18N
+        btnQuanLyThuChi.setText("Quản lý thu chi");
+        btnQuanLyThuChi.setBorder(null);
+        btnQuanLyThuChi.setBorderPainted(false);
+        btnQuanLyThuChi.setFocusPainted(false);
+        btnQuanLyThuChi.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        btnQuanLyThuChi.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnQuanLyThuChi.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnQuanLyThuChi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnThuChi1ActionPerformed(evt);
+                btnQuanLyThuChiActionPerformed(evt);
             }
         });
 
@@ -208,35 +208,35 @@ public class ChucNangChinhUI extends javax.swing.JPanel {
             .addGroup(pnLeftLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(pnLeftLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnKhachHang1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnSanPham1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnNhanVien1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnThuChi1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnBanHang1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnMuaHang1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnQuanLyKhachHang, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnQuanLySanPham, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnQuanLyNhanVien, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnQuanLyThuChi, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btbQuanLyBanHang, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnQuanLyMuaHang, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnLeftLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnBaoCao1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnQuanLyBaoCao, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         pnLeftLayout.setVerticalGroup(
             pnLeftLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnLeftLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(btnBanHang1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btbQuanLyBanHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnMuaHang1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnQuanLyMuaHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(11, 11, 11)
-                .addComponent(btnSanPham1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnQuanLySanPham, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(11, 11, 11)
-                .addComponent(btnNhanVien1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnQuanLyNhanVien, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnKhachHang1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnQuanLyKhachHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnThuChi1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnQuanLyThuChi, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnBaoCao1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnQuanLyBaoCao, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(36, Short.MAX_VALUE))
         );
 
@@ -295,7 +295,7 @@ public class ChucNangChinhUI extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnBanHang1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBanHang1ActionPerformed
+    private void btbQuanLyBanHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btbQuanLyBanHangActionPerformed
         // TODO add your handling code here:
        
        pnRight.removeAll();
@@ -305,71 +305,71 @@ public class ChucNangChinhUI extends javax.swing.JPanel {
        pnRight.repaint();
      
     
-    }//GEN-LAST:event_btnBanHang1ActionPerformed
+    }//GEN-LAST:event_btbQuanLyBanHangActionPerformed
 
-    private void btnMuaHang1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMuaHang1ActionPerformed
+    private void btnQuanLyMuaHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQuanLyMuaHangActionPerformed
         // TODO add your handling code here:
        pnRight.removeAll();
        pnRight.add(quanLyMuaHang);
        pnRight.setLayout(new GridLayout());
        pnRight.revalidate(); 
        pnRight.repaint();
-    }//GEN-LAST:event_btnMuaHang1ActionPerformed
+    }//GEN-LAST:event_btnQuanLyMuaHangActionPerformed
 
-    private void btnSanPham1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSanPham1ActionPerformed
+    private void btnQuanLySanPhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQuanLySanPhamActionPerformed
         // TODO add your handling code here:
        pnRight.removeAll();
        pnRight.add(quanLySanPhamUI);
        pnRight.setLayout(new GridLayout());
        pnRight.revalidate(); 
        pnRight.repaint();
-    }//GEN-LAST:event_btnSanPham1ActionPerformed
+    }//GEN-LAST:event_btnQuanLySanPhamActionPerformed
 
-    private void btnNhanVien1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNhanVien1ActionPerformed
+    private void btnQuanLyNhanVienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQuanLyNhanVienActionPerformed
         // TODO add your handling code here:
        pnRight.removeAll();
        pnRight.add(quanLyNhanVienUI);
        pnRight.setLayout(new GridLayout());
        pnRight.revalidate(); 
        pnRight.repaint();
-    }//GEN-LAST:event_btnNhanVien1ActionPerformed
+    }//GEN-LAST:event_btnQuanLyNhanVienActionPerformed
 
-    private void btnBaoCao1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBaoCao1ActionPerformed
+    private void btnQuanLyBaoCaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQuanLyBaoCaoActionPerformed
         // TODO add your handling code here:
        pnRight.removeAll();
        pnRight.add(quanLyThongKeUI);
        pnRight.setLayout(new GridLayout());
        pnRight.revalidate(); 
        pnRight.repaint();
-    }//GEN-LAST:event_btnBaoCao1ActionPerformed
+    }//GEN-LAST:event_btnQuanLyBaoCaoActionPerformed
 
-    private void btnKhachHang1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKhachHang1ActionPerformed
+    private void btnQuanLyKhachHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQuanLyKhachHangActionPerformed
         // TODO add your handling code here:
        pnRight.removeAll();
        pnRight.add(quanLyKhachHangUI);
        pnRight.setLayout(new GridLayout());
        pnRight.revalidate(); 
        pnRight.repaint();
-    }//GEN-LAST:event_btnKhachHang1ActionPerformed
+    }//GEN-LAST:event_btnQuanLyKhachHangActionPerformed
 
-    private void btnThuChi1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThuChi1ActionPerformed
+    private void btnQuanLyThuChiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQuanLyThuChiActionPerformed
         // TODO add your handling code here:
        pnRight.removeAll();
        pnRight.add(quanLyThuChi);
        pnRight.setLayout(new GridLayout());
        pnRight.revalidate(); 
        pnRight.repaint();
-    }//GEN-LAST:event_btnThuChi1ActionPerformed
+    }//GEN-LAST:event_btnQuanLyThuChiActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBanHang1;
-    private javax.swing.JButton btnBaoCao1;
-    private javax.swing.JButton btnKhachHang1;
-    private javax.swing.JButton btnMuaHang1;
-    private javax.swing.JButton btnNhanVien1;
-    private javax.swing.JButton btnSanPham1;
-    private javax.swing.JButton btnThuChi1;
+    private javax.swing.JButton btbQuanLyBanHang;
+    private javax.swing.JButton btnQuanLyBaoCao;
+    private javax.swing.JButton btnQuanLyKhachHang;
+    private javax.swing.JButton btnQuanLyMuaHang;
+    private javax.swing.JButton btnQuanLyNhanVien;
+    private javax.swing.JButton btnQuanLySanPham;
+    private javax.swing.JButton btnQuanLyThuChi;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel pnLeft;
     private javax.swing.JPanel pnRight;

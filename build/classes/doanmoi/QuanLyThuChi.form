@@ -20,7 +20,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                   <Component id="btnDanhSachPhieuChi" pref="215" max="32767" attributes="0"/>
-                  <Component id="btnDanhMucPhi" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnThemDanhMucPhi" alignment="0" max="32767" attributes="0"/>
                   <Component id="btnThemPhieuChi" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
@@ -37,7 +37,7 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnDanhMucPhi" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
+                  <Component id="btnThemDanhMucPhi" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
                   <Component id="btnPhieuThu" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
@@ -72,7 +72,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDanhSachPhieuChiActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnDanhMucPhi">
+    <Component class="javax.swing.JButton" name="btnThemDanhMucPhi">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="cc" red="0" type="rgb"/>
@@ -88,7 +88,7 @@
         <Property name="focusPainted" type="boolean" value="false"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDanhMucPhiActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnThemDanhMucPhiActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnThemPhieuChi">

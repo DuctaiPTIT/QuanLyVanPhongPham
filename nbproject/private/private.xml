@@ -3,19 +3,29 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/ChiTietNhaCungCap.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/DatHangUI.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/ChiTietKhachHangUI.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/ChiTietNhanVienUI.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/MainFunctionUI.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/QuanLyNhanVienUI.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/QuanLyThuChi.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/QuanLyKhachHangUI.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/QuanLyThongKeUI.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/BanHangUI.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/Doanmoi.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/DanhSachNhanVienUI.java</file>
-            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/doanmoi/src/doanmoi/DanhSachKhachHangUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/QuanLyChuongTrinh.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/ChiTietSanPhamUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/DanhSachPhi.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/DatHangUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/QuanLyKhachHangUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/DanhSachKhachHangUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/DanhSachHoaDonUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/QuanLyMuaHang.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/QuanLyThuChi.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/QuanLySanPhamUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/DanhSachSanPhamUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/ChucNangChinhUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/QuanLyVanPhongPham.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/ChiTietNhanVienUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/DanhSachNhaCungCapUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/BanHangUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/QuanLyNhanVienUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/DanhSachPhieuChiUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/ChiTietNhaCungCap.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/QuanLyBanHangUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/QuanLyThongKeUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/ChiTietKhachHangUI.java</file>
+            <file>file:/D:/Nhap%20mon%20cong%20nghe%20phan%20mem/QuanLyVanPhongPham/src/doanmoi/DanhSachNhanVienUI.java</file>
         </group>
     </open-files>
 </project-private>

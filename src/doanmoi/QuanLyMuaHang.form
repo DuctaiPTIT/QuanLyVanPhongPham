@@ -19,13 +19,13 @@
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="btnDatHang" pref="238" max="32767" attributes="0"/>
-                  <Component id="btnDanhSachDatHang" max="32767" attributes="0"/>
+                  <Component id="btnLapDonDatHang" pref="238" max="32767" attributes="0"/>
+                  <Component id="btnDanhSachDonDatHang" max="32767" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="btnDanhSachNhapHang" max="32767" attributes="0"/>
-                  <Component id="btnNhapHang" max="32767" attributes="0"/>
+                  <Component id="btnDanhSachDonNhapHang" max="32767" attributes="0"/>
+                  <Component id="btnNhapDonNhapHang" max="32767" attributes="0"/>
               </Group>
               <EmptySpace pref="203" max="32767" attributes="0"/>
           </Group>
@@ -36,13 +36,13 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnDatHang" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="btnNhapHang" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
+                  <Component id="btnLapDonDatHang" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
+                  <Component id="btnNhapDonNhapHang" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="btnDanhSachDatHang" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="btnDanhSachNhapHang" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                  <Component id="btnDanhSachDonDatHang" min="-2" pref="80" max="-2" attributes="0"/>
+                  <Component id="btnDanhSachDonNhapHang" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="347" max="32767" attributes="0"/>
           </Group>
@@ -50,7 +50,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="btnDanhSachNhapHang">
+    <Component class="javax.swing.JButton" name="btnDanhSachDonNhapHang">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="cc" red="0" type="rgb"/>
@@ -67,10 +67,10 @@
         <Property name="focusPainted" type="boolean" value="false"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDanhSachNhapHangActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDanhSachDonNhapHangActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnNhapHang">
+    <Component class="javax.swing.JButton" name="btnNhapDonNhapHang">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="cc" red="0" type="rgb"/>
@@ -87,10 +87,10 @@
         <Property name="focusPainted" type="boolean" value="false"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNhapHangActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNhapDonNhapHangActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnDanhSachDatHang">
+    <Component class="javax.swing.JButton" name="btnDanhSachDonDatHang">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="cc" red="0" type="rgb"/>
@@ -107,10 +107,10 @@
         <Property name="focusPainted" type="boolean" value="false"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDanhSachDatHangActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDanhSachDonDatHangActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnDatHang">
+    <Component class="javax.swing.JButton" name="btnLapDonDatHang">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="cc" red="0" type="rgb"/>
@@ -127,7 +127,7 @@
         <Property name="focusPainted" type="boolean" value="false"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDatHangActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLapDonDatHangActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

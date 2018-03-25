@@ -27,30 +27,30 @@ public class QuanLyThongKeUI extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        btnThongKeBanHang = new javax.swing.JButton();
+        btnThongKeDoanhThu = new javax.swing.JButton();
+        btnQuanLyNganSach = new javax.swing.JButton();
 
-        jButton5.setBackground(new java.awt.Color(0, 204, 255));
-        jButton5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setText("Thống kê bán hàng");
-        jButton5.setBorderPainted(false);
-        jButton5.setFocusPainted(false);
+        btnThongKeBanHang.setBackground(new java.awt.Color(0, 204, 255));
+        btnThongKeBanHang.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnThongKeBanHang.setForeground(new java.awt.Color(255, 255, 255));
+        btnThongKeBanHang.setText("Thống kê bán hàng");
+        btnThongKeBanHang.setBorderPainted(false);
+        btnThongKeBanHang.setFocusPainted(false);
 
-        jButton6.setBackground(new java.awt.Color(0, 204, 255));
-        jButton6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setText("Thống kê doanh thu");
-        jButton6.setBorderPainted(false);
-        jButton6.setFocusPainted(false);
+        btnThongKeDoanhThu.setBackground(new java.awt.Color(0, 204, 255));
+        btnThongKeDoanhThu.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnThongKeDoanhThu.setForeground(new java.awt.Color(255, 255, 255));
+        btnThongKeDoanhThu.setText("Thống kê doanh thu");
+        btnThongKeDoanhThu.setBorderPainted(false);
+        btnThongKeDoanhThu.setFocusPainted(false);
 
-        jButton4.setBackground(new java.awt.Color(0, 204, 255));
-        jButton4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setText("Quản lý quỹ vốn");
-        jButton4.setBorderPainted(false);
-        jButton4.setFocusPainted(false);
+        btnQuanLyNganSach.setBackground(new java.awt.Color(0, 204, 255));
+        btnQuanLyNganSach.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnQuanLyNganSach.setForeground(new java.awt.Color(255, 255, 255));
+        btnQuanLyNganSach.setText("Quản lý ngân sách");
+        btnQuanLyNganSach.setBorderPainted(false);
+        btnQuanLyNganSach.setFocusPainted(false);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -59,28 +59,28 @@ public class QuanLyThongKeUI extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(btnThongKeDoanhThu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnThongKeBanHang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnQuanLyNganSach, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(196, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnThongKeDoanhThu, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(11, 11, 11)
-                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnThongKeBanHang, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnQuanLyNganSach, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(69, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
+    private javax.swing.JButton btnQuanLyNganSach;
+    private javax.swing.JButton btnThongKeBanHang;
+    private javax.swing.JButton btnThongKeDoanhThu;
     // End of variables declaration//GEN-END:variables
 }
