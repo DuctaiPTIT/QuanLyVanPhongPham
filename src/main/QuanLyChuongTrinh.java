@@ -24,7 +24,7 @@ public class QuanLyChuongTrinh extends JFrame{
     /**
      * @param args the command line arguments
      */
-    private ChucNangChinhUI chucNangChinhUI;
+    public static ChucNangChinhUI chucNangChinhUI;
     
     
     
