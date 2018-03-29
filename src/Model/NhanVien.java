@@ -9,6 +9,7 @@ package Model;
  *
  * @author levua
  */
+import java.util.Date;
 public class NhanVien {
     private String maNhanVien;
     private String tenNhanVien;
@@ -24,7 +25,12 @@ public class NhanVien {
     private boolean choPhepQuanLyThongKe;
     private boolean choPhepQuanLyThuChi;
 
-    public NhanVien(String maNhanVien, String tenNhanVien, String soDienThoai, String diaChi, String email, String maSanPham, Date ngaySinh, String tenDangNhap, String matKhau, String chucVu, boolean choPhepQuanLyNhanVien, boolean choPhepQuanLyThongKe, boolean choPhepQuanLyThuChi) {
+    public NhanVien(String maNhanVien, String tenNhanVien, String soDienThoai
+            , String diaChi, String email, String maSanPham, Date ngaySinh
+            , String tenDangNhap, String matKhau, String chucVu
+            , boolean choPhepQuanLyNhanVien, boolean choPhepQuanLyThongKe
+            , boolean choPhepQuanLyThuChi
+            ) {
         this.maNhanVien = maNhanVien;
         this.tenNhanVien = tenNhanVien;
         this.soDienThoai = soDienThoai;
@@ -163,9 +169,4 @@ public class NhanVien {
     public void setChoPhepQuanLyThuChi(boolean choPhepQuanLyThuChi) {
         this.choPhepQuanLyThuChi = choPhepQuanLyThuChi;
     }
-    
-    
-    
-    
-    
 }

@@ -13,6 +13,4 @@ public class DonBanHang {
     private String maDonBanHang;
     private String maNhanVien;
     private int tongTien;
-    private 
-    
 }

@@ -10,6 +10,4 @@ package Model;
  * @author levua
  */
 public class NganSachCongTy {
-    private 
-    
 }
