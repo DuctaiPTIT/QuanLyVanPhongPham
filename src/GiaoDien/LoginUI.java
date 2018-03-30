@@ -5,7 +5,14 @@
  */
 package GiaoDien;
 
-import Model.SQLConnect;
+import ModelVPP.NhanVien;
+import ModelVPP.SQLConnect;
+import com.oracle.jrockit.jfr.ContentType;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -20,6 +27,31 @@ public class LoginUI extends javax.swing.JPanel {
         initComponents();
         TenDangNhap.setDocument(new CheckCharacterUI());
         MatKhau.setDocument(new CheckCharacterUI());
+    }
+
+    public NhanVien loggin() {
+        NhanVien nhanVien = null;
+
+        String sql = "SELECT * FROM dbo.THONGTINDANGNHAP WHERE TENDANGNHAP = '" + TenDangNhap.getText() + "' AND MATKHAU = '"
+                + MatKhau.getText() + "'";
+        try {
+            Statement statement = SQLConnect.conn.createStatement();
+            ResultSet resultSet = statement.executeQuery(sql);
+            if(!resultSet.next())
+            {
+                JOptionPane.showMessageDialog(new JFrame(), "Mật khẩu hoặc tài khoản không đúng","Lỗi đăng nhập", ERROR);
+                
+            }
+            nhanVien = new NhanVien();
+            nhanVien.setMa(resultSet.getString(1));
+            
+            statement.close();
+            resultSet.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } 
+        
+        return nhanVien;
     }
 
     /**

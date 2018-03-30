@@ -39,8 +39,7 @@ public class ChucNangChinhUI extends javax.swing.JPanel {
     private QuanLyMuaHangUI quanLyMuaHangUI;
     private QuanLyBanHangUI quanLyBanHangUI;
     private QuanLySanPhamUI quanLySanPhamUI;
-    public ChiTietNhaCungCapUI chiTietNhaCungCapUI;
-    
+  
     
     
     
@@ -60,7 +59,6 @@ public class ChucNangChinhUI extends javax.swing.JPanel {
         quanLySanPhamUI = new QuanLySanPhamUI();
         quanLyBanHangUI = new QuanLyBanHangUI();
         quanLyMuaHangUI = new QuanLyMuaHangUI();
-        chiTietNhaCungCapUI = new ChiTietNhaCungCapUI();
         
     }
     /**
@@ -345,4 +343,62 @@ public class ChucNangChinhUI extends javax.swing.JPanel {
     private void addEvents() {
   
     }
+
+    public JButton getBtbQuanLyBanHang() {
+        return btbQuanLyBanHang;
+    }
+
+    public void setBtbQuanLyBanHang(JButton btbQuanLyBanHang) {
+        this.btbQuanLyBanHang = btbQuanLyBanHang;
+    }
+
+    public JButton getBtnQuanLyBaoCao() {
+        return btnQuanLyBaoCao;
+    }
+
+    public void setBtnQuanLyBaoCao(JButton btnQuanLyBaoCao) {
+        this.btnQuanLyBaoCao = btnQuanLyBaoCao;
+    }
+
+    public JButton getBtnQuanLyKhachHang() {
+        return btnQuanLyKhachHang;
+    }
+
+    public void setBtnQuanLyKhachHang(JButton btnQuanLyKhachHang) {
+        this.btnQuanLyKhachHang = btnQuanLyKhachHang;
+    }
+
+    public JButton getBtnQuanLyMuaHang() {
+        return btnQuanLyMuaHang;
+    }
+
+    public void setBtnQuanLyMuaHang(JButton btnQuanLyMuaHang) {
+        this.btnQuanLyMuaHang = btnQuanLyMuaHang;
+    }
+
+    public JButton getBtnQuanLyNhanVien() {
+        return btnQuanLyNhanVien;
+    }
+
+    public void setBtnQuanLyNhanVien(JButton btnQuanLyNhanVien) {
+        this.btnQuanLyNhanVien = btnQuanLyNhanVien;
+    }
+
+    public JButton getBtnQuanLySanPham() {
+        return btnQuanLySanPham;
+    }
+
+    public void setBtnQuanLySanPham(JButton btnQuanLySanPham) {
+        this.btnQuanLySanPham = btnQuanLySanPham;
+    }
+
+    public JButton getBtnQuanLyThuChi() {
+        return btnQuanLyThuChi;
+    }
+
+    public void setBtnQuanLyThuChi(JButton btnQuanLyThuChi) {
+        this.btnQuanLyThuChi = btnQuanLyThuChi;
+    }
+    
+    
 }

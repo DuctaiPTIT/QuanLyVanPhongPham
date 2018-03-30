@@ -27,8 +27,6 @@ public class QuanLyNhanVienUI extends javax.swing.JPanel {
    
     public QuanLyNhanVienUI() {
         initComponents();
-        danhSachNhanVienUI = new DanhSachNhanVienUI();
-        chiTietNhanVienUI = new ChiTietNhanVienUI();
     }
 
     /**
@@ -91,15 +89,17 @@ public class QuanLyNhanVienUI extends javax.swing.JPanel {
 
     private void btnThemNhanVienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThemNhanVienActionPerformed
         // TODO add your handling code here:
-         createNewJFrame(chiTietNhanVienUI, "Thêm nhân viên");
+        danhSachNhanVienUI = new DanhSachNhanVienUI();
+        createNewJFrame(chiTietNhanVienUI, "Thêm nhân viên");
     }//GEN-LAST:event_btnThemNhanVienActionPerformed
 
     private void btnDanhSachNhanVienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachNhanVienActionPerformed
         // TODO add your handling code here:
+        chiTietNhanVienUI = new ChiTietNhanVienUI();
         createNewJFrame(danhSachNhanVienUI, "Danh sách nhân viên");
     }//GEN-LAST:event_btnDanhSachNhanVienActionPerformed
 
-
+        
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnDanhSachNhanVien;
     private javax.swing.JButton btnThemNhanVien;

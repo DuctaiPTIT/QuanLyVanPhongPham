@@ -38,6 +38,7 @@ public class ObjectVPP {
         if (O.equals(Ma)) return true;
         return false;
     }
+    
     public static String xoaSpace(String _String){
         int n=_String.length();
         if (n==0) return "";

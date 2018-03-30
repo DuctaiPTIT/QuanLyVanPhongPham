@@ -21,7 +21,7 @@ public class QuanLyThuChiUI extends javax.swing.JPanel {
    // private 
     public QuanLyThuChiUI() {
         initComponents();
-        danhSachPhieuChiUI = new DanhSachPhieuChiUI();
+        
     }
 
     /**
@@ -123,11 +123,13 @@ public class QuanLyThuChiUI extends javax.swing.JPanel {
 
     private void btnDanhSachPhieuChiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachPhieuChiActionPerformed
         // TODO add your handling code here:
+        danhSachPhieuChiUI = new DanhSachPhieuChiUI();
         createNewJFrame(danhSachPhieuChiUI, "Danh sách phiếu chi");
     }//GEN-LAST:event_btnDanhSachPhieuChiActionPerformed
 
     private void btnDanhSachPhieuThuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachPhieuThuActionPerformed
         createNewJFrame(new DanhSachPhieuThuUI(), "Danh sách phiếu thu");
+        
     }//GEN-LAST:event_btnDanhSachPhieuThuActionPerformed
 
     private void btnPhieuThuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPhieuThuActionPerformed

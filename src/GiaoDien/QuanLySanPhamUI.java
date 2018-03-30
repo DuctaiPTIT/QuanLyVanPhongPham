@@ -24,8 +24,6 @@ public class QuanLySanPhamUI extends javax.swing.JPanel {
     
     public QuanLySanPhamUI() {
         initComponents();
-        danhSachSanPhamUI = new DanhSachSanPhamUI();
-        chiTietSanPhamUI = new  ChiTietSanPhamUI();
     }
 
     /**
@@ -87,15 +85,17 @@ public class QuanLySanPhamUI extends javax.swing.JPanel {
                 .addContainerGap(202, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
-
+       
+        
     private void btnThemSanPhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThemSanPhamActionPerformed
         // TODO add your handling code here:
-        
-         createNewJFrame(chiTietSanPhamUI, "Nhập đơn đặt hàng");
+        chiTietSanPhamUI = new  ChiTietSanPhamUI();
+        createNewJFrame(chiTietSanPhamUI, "Nhập đơn đặt hàng");
     }//GEN-LAST:event_btnThemSanPhamActionPerformed
 
     private void btnDanhSachSanPhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachSanPhamActionPerformed
         // TODO add your handling code here:
+         danhSachSanPhamUI = new DanhSachSanPhamUI();
          createNewJFrame(danhSachSanPhamUI, "Nhập đơn đặt hàng");
     }//GEN-LAST:event_btnDanhSachSanPhamActionPerformed
 

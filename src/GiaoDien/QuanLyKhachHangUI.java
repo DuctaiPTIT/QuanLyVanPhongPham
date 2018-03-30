@@ -25,11 +25,6 @@ public class QuanLyKhachHangUI extends javax.swing.JPanel {
    
     public QuanLyKhachHangUI() {
         initComponents();
-        danhSachKhachHangUI = new DanhSachKhachHangUI();
-        chiTietKhachHangUI = new ChiTietKhachHangUI();
-        chiTietNhaCungCapUI = new ChiTietNhaCungCapUI();
-        danhSachNhaCungCapUI = new DanhSachNhaCungCapUI();
-         
     }
 
     public DanhSachKhachHangUI getDanhSachKhachHangUI() {
@@ -197,24 +192,31 @@ public class QuanLyKhachHangUI extends javax.swing.JPanel {
 
     private void btnDanhSachNhaCungCapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachNhaCungCapActionPerformed
         // TODO add your handling code here:
+         danhSachNhaCungCapUI = new DanhSachNhaCungCapUI();
          createNewJFrame(danhSachNhaCungCapUI, "Danh sách nhà cung cấp");
     }//GEN-LAST:event_btnDanhSachNhaCungCapActionPerformed
 
     private void btnDanhSachKhachHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachKhachHangActionPerformed
         // TODO add your handling code here:
+        danhSachKhachHangUI = new DanhSachKhachHangUI();
         createNewJFrame(danhSachKhachHangUI, "Danh sách khách hàng");
     }//GEN-LAST:event_btnDanhSachKhachHangActionPerformed
 
     private void btnThemKhachHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThemKhachHangActionPerformed
         // TODO add your handling code here:
+        chiTietKhachHangUI = new ChiTietKhachHangUI();
         createNewJFrame(chiTietKhachHangUI, "Chi tiết khách hàng");
     }//GEN-LAST:event_btnThemKhachHangActionPerformed
 
     private void btnThemNhaCungCapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThemNhaCungCapActionPerformed
         // TODO add your handling code here:
+        chiTietNhaCungCapUI = new ChiTietNhaCungCapUI();
         createNewJFrame(chiTietNhaCungCapUI, "Thêm nhà cung cấp");
     }//GEN-LAST:event_btnThemNhaCungCapActionPerformed
-
+ 
+        
+        
+       
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnDanhSachKhachHang;

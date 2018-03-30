@@ -28,8 +28,6 @@ public class QuanLyBanHangUI extends javax.swing.JPanel {
     
     public QuanLyBanHangUI() {
         initComponents();
-        banHangUI = new ChiTietHoaDonBanHangUI();
-        danhSachHoaDonUI = new DanhSachHoaDonBanHangUI();
     }
 
     public ChiTietHoaDonBanHangUI getBanHangUI() {
@@ -110,12 +108,16 @@ public class QuanLyBanHangUI extends javax.swing.JPanel {
 
     private void btnLapHoaDonBanHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLapHoaDonBanHangActionPerformed
         // TODO add your handling code here:
+        banHangUI = new ChiTietHoaDonBanHangUI();
         createNewJFrame(banHangUI, "Lập hóa đơn bán hàng");
+      
     }//GEN-LAST:event_btnLapHoaDonBanHangActionPerformed
 
     private void btnDanhSachHoaDonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachHoaDonActionPerformed
         // TODO add your handling code here:
+        danhSachHoaDonUI = new DanhSachHoaDonBanHangUI();
         createNewJFrame(danhSachHoaDonUI, "Danh sách hóa đơn");
+        
     }//GEN-LAST:event_btnDanhSachHoaDonActionPerformed
 
 

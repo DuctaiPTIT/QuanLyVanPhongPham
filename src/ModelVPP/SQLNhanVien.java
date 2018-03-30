@@ -7,6 +7,7 @@ package ModelVPP;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -19,6 +20,7 @@ import java.util.Date;
  */
 public class SQLNhanVien extends SQLConnect{
     public SQLNhanVien(){}
+    
     @Override
     public void insert(ObjectVPP O){
         NhanVien nv=(NhanVien)O;
@@ -28,7 +30,9 @@ public class SQLNhanVien extends SQLConnect{
                     +nv.getMa()+","+nv.getTen()+","+nv.getSoDienThoai()+","
                     +nv.getDiaChi()+","+nv.getDiaChi()+","+nv.getMaPhongBan()+","
                     +nv.getNgaySinh()+","+nv.getChucVu()+");";
-            state.executeUpdate(sql);
+            Statement statement = conn.createStatement();
+            statement.executeUpdate(sql);
+            statement.close();
         } catch (SQLException ex) {
             Logger.getLogger(SQLNhanVien.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -66,10 +70,12 @@ public class SQLNhanVien extends SQLConnect{
          * tùy vào điều kiện
          */
         ResultSet rs=null;
+        
         ArrayList<NhanVien> a=new ArrayList<NhanVien>();
         try {
+            Statement statement = conn.createStatement();
             String sql="select * from NHANVIEN where "+dieukien+";";
-            rs=state.executeQuery(sql);
+            rs=statement.executeQuery(sql);
             while (rs.next()){
                 NhanVien nv;
                 nv=new NhanVien();
@@ -83,9 +89,12 @@ public class SQLNhanVien extends SQLConnect{
                 a.add(nv);
             }
             rs.close();
+            statement.close();
         } catch (SQLException ex) {
             Logger.getLogger(SQLNhanVien.class.getName()).log(Level.SEVERE, null, ex);
         }
         return a;
     }
+    
+    
 }

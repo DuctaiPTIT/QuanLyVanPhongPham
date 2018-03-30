@@ -28,10 +28,6 @@ public class QuanLyMuaHangUI extends javax.swing.JPanel {
     
     public QuanLyMuaHangUI() {
         initComponents();
-        chiTietHoaDonDatHangUI = new  ChiTietHoaDonDatHangUI();
-        chiTietHoaDonNhapHangUI = new ChiTietHoaDonNhapHangUI();
-        danhSachDonDatHangUI = new DanhSachDonDatHangUI();
-        danhSachDonNhapHangUI = new DanhSachDonNhapHangUI();
     }
 
     /**
@@ -132,25 +128,32 @@ public class QuanLyMuaHangUI extends javax.swing.JPanel {
 
     private void btnDanhSachDonNhapHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachDonNhapHangActionPerformed
         // TODO add your handling code here:
+        danhSachDonDatHangUI = new DanhSachDonDatHangUI();
         createNewJFrame(danhSachDonNhapHangUI, "Danh sách đơn nhập hàng");
     }//GEN-LAST:event_btnDanhSachDonNhapHangActionPerformed
 
     private void btnNhapDonNhapHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNhapDonNhapHangActionPerformed
         // TODO add your handling code here:
-         createNewJFrame(chiTietHoaDonNhapHangUI, "Nhập đơn nhập hàng");
+        chiTietHoaDonNhapHangUI = new ChiTietHoaDonNhapHangUI();
+        createNewJFrame(chiTietHoaDonNhapHangUI, "Nhập đơn nhập hàng");
     }//GEN-LAST:event_btnNhapDonNhapHangActionPerformed
 
     private void btnDanhSachDonDatHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDanhSachDonDatHangActionPerformed
         // TODO add your handling code here:
-         createNewJFrame(danhSachDonDatHangUI, "Danh sách đơn đặt hàng");
+        danhSachDonNhapHangUI = new DanhSachDonNhapHangUI();
+        createNewJFrame(danhSachDonDatHangUI, "Danh sách đơn đặt hàng");
     }//GEN-LAST:event_btnDanhSachDonDatHangActionPerformed
 
     private void btnLapDonDatHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLapDonDatHangActionPerformed
         // TODO add your handling code here:
-         createNewJFrame(chiTietHoaDonDatHangUI, "Lập đơn đặt hàng");
+        chiTietHoaDonDatHangUI = new  ChiTietHoaDonDatHangUI();
+        createNewJFrame(chiTietHoaDonDatHangUI, "Lập đơn đặt hàng");
     }//GEN-LAST:event_btnLapDonDatHangActionPerformed
 
 
+       
+        
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnDanhSachDonDatHang;
     private javax.swing.JButton btnDanhSachDonNhapHang;
