@@ -5,7 +5,11 @@
  */
 package GiaoDien;
 
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.util.Calendar;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import main.QuanLyVanPhongPham;
 
 /**
@@ -20,15 +24,36 @@ public class ChiTietHoaDonBanHangUI extends javax.swing.JPanel {
     public ChiTietHoaDonBanHangUI() {
         initComponents();
         setUpDonBanHang();
-      
+        addEvents();
     }
 
-    private void setUpDonBanHang()
-    {
-        txtMaNhanVien.setText( QuanLyVanPhongPham.nhanVienLoggingIn.getMa());
+    private void addEvents() {
+
+        txtMaKhachHang.addKeyListener(new KeyListener() {
+
+            @Override
+            public void keyTyped(KeyEvent e) {
+                int valueOfInput = e.getKeyChar();
+                if (valueOfInput < 65 || valueOfInput > 90 && valueOfInput < 97 || valueOfInput > 122) {
+                    e.setKeyChar(' ');
+                }
+            }
+
+            @Override
+            public void keyPressed(KeyEvent e) {
+            }
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+            }
+        });
+    }
+
+    private void setUpDonBanHang() {
+        txtMaNhanVien.setText(QuanLyVanPhongPham.nhanVienLoggingIn.getMa());
         txtNgayLap.setText(Calendar.getInstance().getTime().toString());
     }
-    
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -60,7 +85,7 @@ public class ChiTietHoaDonBanHangUI extends javax.swing.JPanel {
         jLabel6 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         txtMaKhachHang = new javax.swing.JTextField();
-        txtKhachHang = new javax.swing.JTextField();
+        txtTenKhachHang = new javax.swing.JTextField();
         txtSoDienThoaiKhachHang = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
@@ -82,6 +107,7 @@ public class ChiTietHoaDonBanHangUI extends javax.swing.JPanel {
         jLabel4.setText("Nhân Viên");
 
         txtMaHoaDon.setEditable(false);
+        txtMaHoaDon.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
         txtNgayLap.setEditable(false);
 
@@ -133,6 +159,12 @@ public class ChiTietHoaDonBanHangUI extends javax.swing.JPanel {
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel9.setText("Số Điện Thoại");
 
+        txtMaKhachHang.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                txtMaKhachHangKeyTyped(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -146,7 +178,7 @@ public class ChiTietHoaDonBanHangUI extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(txtMaKhachHang, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtKhachHang, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtTenKhachHang, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtSoDienThoaiKhachHang, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(41, 56, Short.MAX_VALUE))
         );
@@ -159,7 +191,7 @@ public class ChiTietHoaDonBanHangUI extends javax.swing.JPanel {
                 .addGap(6, 6, 6)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtKhachHang, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtTenKhachHang, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -332,10 +364,16 @@ public class ChiTietHoaDonBanHangUI extends javax.swing.JPanel {
     }//GEN-LAST:event_txtPhanTramGiamGiaActionPerformed
 
     private void btnThanhToanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThanhToanActionPerformed
-        
+
     }//GEN-LAST:event_btnThanhToanActionPerformed
 
- 
+    private void txtMaKhachHangKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtMaKhachHangKeyTyped
+        // TODO add your handling code here:
+//        if(evt.getKeyChar() == ' ')
+//            evt.setKeyChar(null);
+    }//GEN-LAST:event_txtMaKhachHangKeyTyped
+
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLapDonMoi;
     private javax.swing.JButton btnThanhToan;
@@ -359,7 +397,6 @@ public class ChiTietHoaDonBanHangUI extends javax.swing.JPanel {
     private javax.swing.JRadioButton rbtChuyenKhoan;
     private javax.swing.JRadioButton rbtTienMat;
     private javax.swing.JTable tbDanhSachSanPham;
-    private javax.swing.JTextField txtKhachHang;
     private javax.swing.JTextField txtKhachHangTra;
     private javax.swing.JTextField txtMaHoaDon;
     private javax.swing.JTextField txtMaKhachHang;
@@ -367,6 +404,7 @@ public class ChiTietHoaDonBanHangUI extends javax.swing.JPanel {
     private javax.swing.JTextField txtNgayLap;
     private javax.swing.JTextField txtPhanTramGiamGia;
     private javax.swing.JTextField txtSoDienThoaiKhachHang;
+    private javax.swing.JTextField txtTenKhachHang;
     private javax.swing.JTextField txtTienThoiLai;
     private javax.swing.JTextField txtTongTienHangTrenBill;
     private javax.swing.JTextField txtTongTienPhaiThanhToan;
