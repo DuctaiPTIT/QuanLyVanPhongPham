@@ -16,6 +16,7 @@ public class SanPham extends ObjectVPP{
     private int SoLuong;
     private boolean TinhTrang;
     private int DonGia;
+    private String NhaCungCap;;
     public SanPham(){
         super();
         Ten=new String();
@@ -23,6 +24,7 @@ public class SanPham extends ObjectVPP{
         SoLuong=0;
         TinhTrang=false;
         DonGia=0;
+        NhaCungCap=new String();
     }
     public static String isLetter(String Ten){
         if (Ten.isEmpty()) return "Rỗng";
@@ -60,10 +62,13 @@ public class SanPham extends ObjectVPP{
     public int getDonGia(){
         return DonGia;
     }
+    public String getNhaCungCap(){
+        return NhaCungCap;
+    }
     public void setTen(String Ten){
         if (SanPham.isLetter(Ten)==null) this.Ten=Ten;
     }
-    public void setDon(String DonVi){
+    public void setDonVi(String DonVi){
         this.DonVi=DonVi;
     }
     public void setTinhTrang(boolean flag){
@@ -75,5 +80,11 @@ public class SanPham extends ObjectVPP{
     public void setDonGia(String DonGia){
         int i=SanPham.isNumber(DonGia);
         if (i!=-1) this.DonGia=i;
+    }
+    public void setSoLuong(int SoLuong){
+        if (SoLuong>=0) this.SoLuong=SoLuong;
+    }
+    public void setNhaCungCap(String NhaCungCap){
+        this.NhaCungCap=NhaCungCap;
     }
 }

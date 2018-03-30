@@ -17,6 +17,11 @@ import java.util.logging.Logger;
 
 public class HoaDon extends ObjectVPP{
     private Date NgayTao;
+    private String MaNV;
+    private int TongTien;
+    private boolean ChuyenKhoan;
+    private boolean TienMat;
+    private String MaKhachHang;
     private ArrayList<SanPham> DSSP;
     public HoaDon(){
         super();
@@ -65,6 +70,24 @@ public class HoaDon extends ObjectVPP{
         if (index<0) return null;
         return DSSP.get(index);
     }
+    public ArrayList<SanPham> getDSSP(){
+        return DSSP;
+    }
+    public String getMaNhanVien(){
+        return MaNV;
+    }
+    public String getMaKhachHang(){
+        return MaKhachHang;
+    }
+    public int getTongTien(){
+        return TongTien;
+    } 
+    public boolean getChuyenKhoan(){
+        return ChuyenKhoan;
+    }
+    public boolean getTienMat(){
+        return TienMat;
+    }
     public void setNgayTao(String NgayTao){
         try {
             if (NgayTao.length()!=18) return;
@@ -89,5 +112,22 @@ public class HoaDon extends ObjectVPP{
     }
     public int removeSanPham(SanPham sp){
         return removeSanPham(sp.getMa());
+    }
+    public void setMaNV(String MaNV){
+        this.MaNV=MaNV;
+    }
+    public void setMaKhachHang(String MaKhachHang){
+        this.MaKhachHang=MaKhachHang;
+    }
+    public void setTongTien(int TongTien){
+        if (TongTien>0) this.TongTien=TongTien;
+    }
+    public void setChuyenKhoan(boolean flag){
+        ChuyenKhoan=flag;
+        TienMat=!flag;
+    }
+    public void setTienMat(boolean flag){
+        TienMat=flag;
+        ChuyenKhoan=!flag;
     }
 }

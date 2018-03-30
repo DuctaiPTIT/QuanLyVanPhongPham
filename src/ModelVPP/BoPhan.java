@@ -11,12 +11,11 @@ import java.util.Iterator;
  * @author phnam
  */
 public class BoPhan extends ObjectVPP{
-    private String MaBoPhan;
     private String TenBoPhan;
     private ArrayList<NhanVien> DSNV;
     private String MaNVQuanLy;
     public BoPhan(){
-        MaBoPhan=new String();
+        super();
         TenBoPhan=new String();
         DSNV=new ArrayList<NhanVien>();
         MaNVQuanLy=new String();
@@ -42,13 +41,10 @@ public class BoPhan extends ObjectVPP{
     public int hasNhanVien(NhanVien nv){
         return hasNhanVien(nv.getMa());
     }
-    public String getMaBoPhan(){
-        return MaBoPhan;
-    }
     public String getTenBoPhan(){
         return TenBoPhan;
     }
-    public String MaNVQuanLy(){
+    public String getMaNVQuanLy(){
         return MaNVQuanLy;
     }
     public ArrayList<NhanVien> getDSNV(){
@@ -64,15 +60,13 @@ public class BoPhan extends ObjectVPP{
         if (i!=-1) return DSNV.get(i);
         return null;
     }
-    public void setMaBoPhan(String MaBoPhan){
-        if (MaBoPhan.isEmpty()) return;
-        this.MaBoPhan=MaBoPhan;
+    public String getMaNVQLL(){
+        return MaNVQuanLy;
     }
     public void setTenBoPhan(String TenBoPhan){
         if (BoPhan.isLetter(TenBoPhan)==null) this.TenBoPhan=TenBoPhan;
     }
     public void setMaNVQuanLy(String MaNVQuanLy){
-        if (MaNVQuanLy.isEmpty()) return;
         this.MaNVQuanLy=MaNVQuanLy;
     }
     public void addNhanVien(NhanVien a){

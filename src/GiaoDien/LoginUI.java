@@ -43,7 +43,7 @@ public class LoginUI extends javax.swing.JPanel {
                 
             }
             nhanVien = new NhanVien();
-            sql = "SELECT * FROM dbo.NHANVIEN WHERE MANV = '"+resultSet.getString(1)+"'";
+            sql = "SELECT * FROM dbo.NHANVIEN WHERE MANV = '"+resultSet.getString("MANV")+"'";
             resultSet = statement.executeQuery(sql);
             while (resultSet.next()){
                 nhanVien.setMa(resultSet.getString("MANV"));

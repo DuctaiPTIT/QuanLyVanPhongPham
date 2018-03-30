@@ -55,6 +55,7 @@ public class SQLNhanVien extends SQLConnect{
             pre.setString(4,nv.getMaPhongBan());
             pre.setDate(5,new java.sql.Date(date.getTime()));
             pre.setString(6,nv.getChucVu());
+            pre.setString(7,nv.getMa());
             pre.executeUpdate();
             pre.close();
         } catch (SQLException ex) {
