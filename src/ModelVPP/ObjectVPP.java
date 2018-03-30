@@ -38,33 +38,40 @@ public class ObjectVPP {
         if (O.equals(Ma)) return true;
         return false;
     }
-        public static boolean isDate(String Date) {
-        if (Date.length() != 10) {
-            return false;
+    
+    public static String xoaSpace(String _String){
+        int n=_String.length();
+        if (n==0) return "";
+        StringBuilder __String= new StringBuilder(_String);
+        for (int i=0;i<n;i++){      ///xóa ' ' đầu dãy
+            if (__String.charAt(i)!=' ') break;
+            __String.deleteCharAt(i);
+            n--;
+            i--;
         }
-        byte[] date = Date.getBytes();
-        int day = (date[0] - 48) * 10 + date[1] - 48;
-        int month = (date[3] - 48) * 10 + date[4] - 48;
-        int year = (date[6] - 48) * 1000 + (date[7] - 48) * 100 + (date[8] - 48) * 10 + date[9] - 48;
-        return ObjectVPP.isDate(day, month, year);
+        for (int i=n-1;i>=0;i--){   ///xóa ' ' cuối dãy
+            if (__String.charAt(i)!=' ') break;
+            __String.deleteCharAt(i);
+        }
+        return __String.toString();
     }
-          public static boolean isDate(int day, int month, int year) {
+    public static boolean isDate(int day, int month, int year){
         int max;
-        if (month == 2) {
-            if (year % 100 == 0) {
-                max = 28;
-            } else {
-                max = (year % 4) == 0 ? 29 : 28;
-            }
-        } else {
-            if (month < 8) {
-                max = (month % 2) == 1 ? 31 : 30;
-            } else {
-                max = (month % 2) == 1 ? 30 : 31;
-            }
+        if (month==2) 
+            if (year%100==0) max=28;
+            else max=(year%4)==0?29:28;
+        else {
+            if (month<8) max=(month%2)==1?31:30;
+            else max=(month%2)==1?30:31;
         }
-        return 1 <= day && day <= max;
+        return 1<=day && day<=max;
     }
-
-        
+    public static boolean isDate(String Date){
+        if (Date.length()!=10) return false;
+        byte[] date=Date.getBytes();
+        int day=(date[0]-48)*10+date[1]-48;
+        int month=(date[3]-48)*10+date[4]-48;
+        int year=(date[6]-48)*1000+(date[7]-48)*100+(date[8]-48)*10+date[9]-48;
+        return ObjectVPP.isDate(day,month,year);
+    }
 }

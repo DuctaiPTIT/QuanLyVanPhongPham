@@ -24,7 +24,6 @@ public class SQLNhanVien extends SQLConnect{
     @Override
     public void insert(ObjectVPP O){
         NhanVien nv=(NhanVien)O;
-        
         try {
             String sql="insert into NHANVIEN (MANV,TENNV,SDT,DIACHI,MABP"
                     + ",NGAYSINH,CHUCVU) values ("
