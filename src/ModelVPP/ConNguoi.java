@@ -9,67 +9,104 @@ package ModelVPP;
  *
  * @author phnam
  */
-public class ConNguoi extends ObjectVPP{
+public class ConNguoi extends ObjectVPP {
+
     private String Ten;
     private String DiaChi;
     private String SoDienThoai;
     private String Email;
-    public ConNguoi(){
+
+    public ConNguoi() {
         super();
-        Ten=new String();
-        DiaChi=new String();
-        SoDienThoai=new String();
-        Email=new String();
+        Ten = new String();
+        DiaChi = new String();
+        SoDienThoai = new String();
+        Email = new String();
     }
-    public static String isLetter(String Ten){
-        if (Ten.isEmpty()) return "Rỗng";
-        for (int i=0;i<Ten.length();i++){
-            if (!Character.isLetter(Ten.charAt(i)) || Ten.charAt(i)!=' ') 
+
+    public static String isLetter(String Ten) {
+        if (Ten.isEmpty()) {
+            return "Rỗng";
+        }
+        for (int i = 0; i < Ten.length(); i++) {
+            if (!Character.isLetter(Ten.charAt(i)) || Ten.charAt(i) != ' ') {
                 return "Chỉ chứa kí tự";
-        } 
-        return null;
-    }
-    public static String isSoDienThoai(String SoDienThoai){
-        if (SoDienThoai.isEmpty()) return "Rỗng";
-        for (int i=0;i<SoDienThoai.length();i++){
-            if (!Character.isDigit(SoDienThoai.charAt(i))) return "Chỉ chứa số";
+            }
         }
         return null;
     }
-    public static String isEmail(String Email){
-        if (Email.isEmpty()) return "Rỗng";
-        int AC=0,dot=0;///AC vị trí "@", dot vị trí "."
-        for (int i=0;i<Email.length();i++)
-            if (AC==0 && Email.charAt(i)=='@') AC=i;
-        if (AC==0) return "Form email không hợp lệ";
-        for (int i=0;i<Email.length();i++)
-            if (dot==0 && Email.charAt(i)=='.') AC=i;
-        if (dot==0) return "Tên miền email không hợp lệ";
+
+    public static String isSoDienThoai(String SoDienThoai) {
+        if (SoDienThoai.isEmpty()) {
+            return "Rỗng";
+        }
+        for (int i = 0; i < SoDienThoai.length(); i++) {
+            if (!Character.isDigit(SoDienThoai.charAt(i))) {
+                return "Chỉ chứa số";
+            }
+        }
         return null;
     }
-    public String getTen(){
+
+    public static String isEmail(String Email) {
+            if (Email.isEmpty()) {
+                return "Rỗng";
+            }
+            int AC = 0, dot = 0;///AC vị trí "@", dot vị trí "."
+            for (int i = 0; i < Email.length(); i++) {
+                if (AC == 0 && Email.charAt(i) == '@') {
+                    AC = i;
+                }
+            }
+            if (AC == 0) {
+                return "Form email không hợp lệ";
+            }
+            for (int i = 0; i < Email.length(); i++) {
+                if (dot == 0 && Email.charAt(i) == '.') {
+                    AC = i;
+                }
+            }
+            if (dot == 0) {
+                return "Tên miền email không hợp lệ";
+            }
+        return null;
+    }
+
+    public String getTen() {
         return Ten;
     }
-    public String getDiaChi(){
+
+    public String getDiaChi() {
         return DiaChi;
     }
-    public String getSoDienThoai(){
+
+    public String getSoDienThoai() {
         return SoDienThoai;
     }
-    public String getEmail(){
+
+    public String getEmail() {
         return Email;
     }
-    public void setTen(String Ten){
-        if (ConNguoi.isLetter(Ten)==null) this.Ten=Ten;
+
+    public void setTen(String Ten) {
+        if (ConNguoi.isLetter(Ten) != null) {
+            this.Ten = Ten;
+        }
     }
-    public void setDiaChi(String DiaChi){
-        this.DiaChi=DiaChi;
+
+    public void setDiaChi(String DiaChi) {
+        this.DiaChi = DiaChi;
     }
-    public void setSoDienThoai(String SoDienThoai){
-        if (ConNguoi.isSoDienThoai(SoDienThoai)==null)
-            this.SoDienThoai=SoDienThoai;
+
+    public void setSoDienThoai(String SoDienThoai) {
+        if (ConNguoi.isSoDienThoai(SoDienThoai) != null) {
+            this.SoDienThoai = SoDienThoai;
+        }
     }
-    public void setEmail(String Email){
-        if (ConNguoi.isEmail(Email)==null) this.Email=Email;
+
+    public void setEmail(String Email) {
+        if (ConNguoi.isEmail(Email) != null) {
+            this.Email = Email;
+        }
     }
 }
