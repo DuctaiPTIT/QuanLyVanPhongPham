@@ -38,6 +38,8 @@ public class NhanVien extends ConNguoi {
         ChoPhepQuanLyThongKe=false;
         ChoPhepQuanLyThuChi=false;
     }
+    
+    
     public static String notSpecialLetter(String _String){
         /*****
          * 

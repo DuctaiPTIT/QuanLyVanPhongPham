@@ -9,15 +9,17 @@ package GiaoDien;
  *
  * @author Dell
  */
-public class ChiTietKhachHangUI extends javax.swing.JPanel {
+public class ChiTietKhachHangUI extends javax.swing.JPanel  {
 
     /**
      * Creates new form ThemKhachHangUI
      */
     public ChiTietKhachHangUI() {
         initComponents();
+        
     }
-
+    
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -123,7 +125,8 @@ public class ChiTietKhachHangUI extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-
+    
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCapNhat;
     private javax.swing.JButton jButton4;

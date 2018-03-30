@@ -47,13 +47,12 @@ public class LoginUI extends javax.swing.JPanel {
             resultSet = statement.executeQuery(sql);
             while (resultSet.next()){
                 nhanVien.setMa(resultSet.getString("MANV"));
-                //phan nay mấy hàm set chưa đúng lắm xíu xem sửa làm
-//                nhanVien.setTen(resultSet.getString("TENNV")==null?resultSet.getString("TENNV"):"");
+//                nhanVien.setTen(resultSet.getString("TENNV"));
 //                nhanVien.setSoDienThoai(resultSet.getString("SDT"));
-//                nhanVien.setDiaChi(resultSet.getString("DIACHI")==null?resultSet.getString("DIACHI"):"" );
-//                nhanVien.setEmail(resultSet.getString("EMAIL")==null ?resultSet.getString("EMAIL"):"" );
-//                nhanVien.setNgaySinh(resultSet.getString("NGAYSINH")==null?resultSet.getString("NGAYSINH"):"");
-//                nhanVien.setChucVu(resultSet.getString("CHUCVU")==null?resultSet.getString("CHUCVU"):"");
+//                nhanVien.setDiaChi(resultSet.getString("DIACHI") );
+//                nhanVien.setEmail(resultSet.getString("EMAIL"));
+//                nhanVien.setNgaySinh(resultSet.getString("NGAYSINH"));
+//                nhanVien.setChucVu(resultSet.getString("CHUCVU"));
                 nhanVien.setCPQLNhanVien(resultSet.getBoolean("CHOPHEPQUANLYNV"));
                 nhanVien.setCPQLThongKe(resultSet.getBoolean("CHOPHEPQUANLYTK"));
                 nhanVien.setCPQLThuChi(resultSet.getBoolean("CHOPHEPQUANLYTHUCHI"));

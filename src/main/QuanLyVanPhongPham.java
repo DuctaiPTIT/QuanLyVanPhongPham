@@ -18,6 +18,7 @@ import java.awt.event.ActionListener;
 import java.util.ResourceBundle;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JTextArea;
 
 /**
  *
@@ -74,6 +75,8 @@ public class QuanLyVanPhongPham {
     
     public static void main(String[] args){
         new QuanLyVanPhongPham();
+        
+        //System.out.println(support.SupportUIClass.chuanHoaChuoi("   vu    duc dsds   "));
     }
     
     
